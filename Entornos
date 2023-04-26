@@ -1,0 +1,19 @@
+int numero; // Aquí defino las variables
+      int suma;
+      
+        System.out.println("Introduce un número entero positivo"); // Aquí introduzco el mensaje que aparecerá por pantalla
+            numero=s.nextInt(); // Aquí le doy valor a la variable
+            
+                if(numero<0){ // Número es menor a cero
+                    System.out.println("Un numero positivo");
+                    
+                }else{
+                    System.out.println("La suma de 100 números a "+numero+" son:");
+                        suma=0;
+                for(int i= numero; i<(numero+100); i++){
+                        suma +=i;
+                }        
+                   System.out.println(suma);
+                }
+    }
+}
